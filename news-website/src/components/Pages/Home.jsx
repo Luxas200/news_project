@@ -65,8 +65,7 @@ function ArticleList() {
 
       const handleDeleteArticle = (deletedArticle) => {
         fetch(`http://127.0.0.1:8000/api/articles/${deletedArticle}/`, {
-            method: 'DELETE',
-            
+            method: 'DELETE',            
         })
             .then(response => {
                 if (response.ok) {
@@ -78,7 +77,6 @@ function ArticleList() {
             })  
             .catch(error => console.error('Error deleting article:', error))        
       };
-
 
     if (loading) return <p>Loading articles...</p>
     if(error) return <p>(error)</p>
@@ -107,8 +105,7 @@ function ArticleList() {
                         onEdit = {() => setEditArticle(article)}
                         onDelete = {handleDeleteArticle}
                         imageUrl = {article.imageUrl}
-                        readCount={article.readCount}
-                        
+                        readCount={article.readCount}                        
                     />
                 ))
             }           

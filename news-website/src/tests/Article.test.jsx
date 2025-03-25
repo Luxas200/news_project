@@ -4,8 +4,6 @@ import { MemoryRouter } from 'react-router-dom'
 import Article from '../components/ArticleComponents/Article'
 import { expect } from 'vitest'
 
-
-
 describe('Article Component', () => {
     test('renders title and content', () => {
         render(

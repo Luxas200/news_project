@@ -1,11 +1,8 @@
-.aside {
-    /* background-color: #282c34; */
+.aside {    
     margin: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
-   
+    justify-content: space-between;   
 }
 
 .advertisment-1 {
@@ -21,8 +18,7 @@
     text-align: end;
     font-style: bold;
     margin: 0;
-    width: 250px;
-    
+    width: 250px;    
 }
 
 

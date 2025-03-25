@@ -1,4 +1,3 @@
-/* Form styling */
 .form-group {
     margin-bottom: 15px;
   }
@@ -21,8 +20,7 @@
   .form-group textarea {
     resize: vertical;
   }
-  
-  /* Submit button styling */
+
   button[type="submit"] {
     background-color: #27ae60;    
   }

@@ -2,8 +2,6 @@ import './Article.css'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-
-
 function Article({ id, title, content, imageUrl, onEdit, onDelete, readCount}) {
    
     const [likecount, setLikeCount] = useState(0);    
@@ -33,9 +31,7 @@ function Article({ id, title, content, imageUrl, onEdit, onDelete, readCount}) {
                 <button onClick={() => onDelete(id)}>Delete</button>
                 {onEdit && <button onClick={onEdit}>Edit</button>}
                 <button><Link to={`/articles/${id}`}>Read more</Link></button>
-            </div>
-            
-            
+            </div>            
         </article>
     )
 }

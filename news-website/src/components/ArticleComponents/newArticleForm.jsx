@@ -6,8 +6,6 @@ function NewArticleForm({ onSubmit, initialData }) {
     const [content, setContent] = useState(initialData ? initialData.content : "");
     const [imageUrl, setImageUrl] = useState(initialData ? initialData.imageUrl : "");
 
-
-
     const handleSubmit = (e) => {
         e.preventDefault();
         const articleData = {
@@ -60,7 +58,6 @@ function NewArticleForm({ onSubmit, initialData }) {
                     onChange={(e) => setImageUrl(e.target.value)}
                 />
             </div>
-
             <button type = "submit">{initialData ? "Update Article" : "Add Article"}</button>
         </form>
     );
