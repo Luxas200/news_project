@@ -1,0 +1,21 @@
+.article-detail {
+    border: 1px solid #04f554;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px;    
+    background-color: #f9f9f9;    
+  }
+
+.article-detail-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+    border-radius: 8px;
+  }
+
+.info-detail-format {
+    text-align: left;
+    font-style: italic;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}

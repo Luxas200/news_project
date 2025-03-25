@@ -1,0 +1,21 @@
+.aside {
+    /* background-color: #282c34; */
+    margin: 0;
+   
+}
+
+.shoes {
+    color: aqua;
+    text-align: start;
+    font-style: italic;
+    margin: 0;
+}
+
+.glasses {
+    color: coral;
+    text-align: end;
+    font-style: bold;
+    margin: 0;
+}
+
+
