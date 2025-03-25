@@ -1,23 +1,33 @@
 News_Project
+
 Overview
+
 News_Project is a comprehensive web application for managing articles. It combines a React frontend with a Django backend to offer a feature-rich platform for users to read, like, edit, create, and delete articles. The application tracks the popularity of articles through read counts and supports dynamic interactions, such as real-time updates and customizable features.
 
 Features
 
 Frontend:
+
     1. Homepage: 
+    
         Displays a dynamic list of articles using the  component.
         Enables CRUD operations (Create, Read, Update, Delete) for articles via modals.
         Tracks and updates article likes and highlights liked articles with unique styles.
         Integrates navigation to detailed views of articles () using React Router.
+        
     2. Article Detail Page:
+    
         Displays detailed article information (image, content, publication date, and read count).
         Increments and updates the read count via an API call.
         Provides easy navigation back to the homepage.
+        
     3. Reusable Components:
+    
         Modal: A fully customizable modal for adding or editing articles.
         Article: A single article representation, including interactive like and delete buttons.
+        
     4. Routing:
+    
         React Router is used for navigating between the homepage and detailed views of individual articles.
 
 Backend:
