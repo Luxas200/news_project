@@ -8,27 +8,27 @@ Features
 
 Frontend:
 
-    1. Homepage: 
+1. Homepage: 
     
-        Displays a dynamic list of articles using the  component.
-        Enables CRUD operations (Create, Read, Update, Delete) for articles via modals.
-        Tracks and updates article likes and highlights liked articles with unique styles.
-        Integrates navigation to detailed views of articles () using React Router.
+   Displays a dynamic list of articles using the  component.
+   Enables CRUD operations (Create, Read, Update, Delete) for articles via modals.
+   Tracks and updates article likes and highlights liked articles with unique styles.
+   Integrates navigation to detailed views of articles () using React Router.
         
-    2. Article Detail Page:
+2. Article Detail Page:
     
-        Displays detailed article information (image, content, publication date, and read count).
-        Increments and updates the read count via an API call.
-        Provides easy navigation back to the homepage.
+   Displays detailed article information (image, content, publication date, and read count).
+   Increments and updates the read count via an API call.
+   provides easy navigation back to the homepage.
         
-    3. Reusable Components:
+3. Reusable Components:
     
-        Modal: A fully customizable modal for adding or editing articles.
-        Article: A single article representation, including interactive like and delete buttons.
+    Modal: A fully customizable modal for adding or editing articles.
+    Article: A single article representation, including interactive like and delete buttons.
         
-    4. Routing:
+4. Routing:
     
-        React Router is used for navigating between the homepage and detailed views of individual articles.
+   React Router is used for navigating between the homepage and detailed views of individual articles.
 
 Backend:
     1. Django REST API:
