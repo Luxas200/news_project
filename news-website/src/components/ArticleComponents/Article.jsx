@@ -19,20 +19,22 @@ function Article({ id, title, content, imageUrl, onEdit, onDelete, readCount}) {
     };
 
     return (
-        <article 
-            className="article"            
-            style={articleStyle}
-        >
+        <article className="article" style={articleStyle}>
             {imageUrl && <img className='article-image' src={imageUrl} alt={title} />}
-            <h3>{title}</h3>
-            <p>{content}</p>            
+            <div className='container-center'>
+                <h3>{title}</h3>
+            </div>            
+            <p className='article-align'>{content}</p>            
             <p className='info-article-format'>Likes: {likecount}</p>
             <p className='info-article-format'>This article was read {readCount} times.</p>
-            <button onClick={handleArtickleClickLike}>Like!</button>
-            <button onClick={handleArtickleClickUnlike}>Unlike!</button>
-            <button onClick={() => onDelete(id)}>Delete</button>
-            {onEdit && <button onClick={onEdit}>Edit</button>}
-            <button><Link to={`/articles/${id}`}>Read more</Link></button>
+            <div className='container-center'>
+                <button onClick={handleArtickleClickLike}>Like!</button>
+                <button onClick={handleArtickleClickUnlike}>Unlike!</button>
+                <button onClick={() => onDelete(id)}>Delete</button>
+                {onEdit && <button onClick={onEdit}>Edit</button>}
+                <button><Link to={`/articles/${id}`}>Read more</Link></button>
+            </div>
+            
             
         </article>
     )

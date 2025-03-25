@@ -39,11 +39,15 @@ function ArticleDetail() {
     return (
         <article className="article-detail">
             {article.imageUrl && <img className='article-detail-image' src={article.imageUrl} alt={article.title} />}
+            <div className="container-center">
             <h2>{article.title}</h2>
+            </div>            
             <p>{article.content}</p>
             <p className="info-detail-format">This article was read {article.readCount} times.</p>
             <p className="info-detail-format">Published on: {new Date(article.published_at).toLocaleDateString()}</p>
+            <div className="container-center">
             <button onClick={() => navigate(-1)}>Back</button>
+            </div>            
         </article>
     )
 }

@@ -13,7 +13,7 @@
 
 .article p {
   color: #666;
-  font-size: 16px;
+  font-size: 16px;  
 }
 
 /* Additional css */
@@ -43,4 +43,12 @@
   font-style: italic;
   font-size: small;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.article-align { 
+  text-align: justify;
+}
+
+.container-center {
+  text-align: center;
 }

@@ -1,21 +1,28 @@
 .aside {
     /* background-color: #282c34; */
-    margin: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
    
 }
 
-.shoes {
+.advertisment-1 {
     color: aqua;
     text-align: start;
     font-style: italic;
     margin: 0;
+    width: 250px;    
 }
 
-.glasses {
+.advertisment-2 {
     color: coral;
     text-align: end;
     font-style: bold;
     margin: 0;
+    width: 250px;
+    
 }
 
 
